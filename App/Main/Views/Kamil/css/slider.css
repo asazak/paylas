@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+#slider{width: 650px; margin:0px 30px 30px 30px; border: solid #333 1px; height: 300px; }
+.slider{width:650px; height: 300px; overflow: hidden;}
+.slider ul{overflow: hidden;margin: 0; padding: 0;}
+.slider ul li {width: 650px; height: 300px; float: left; }
+.sliderbutton{ margin-top: -170px;}
+.sliderbutton a.onceki{margin-left: 8px;}
+.sliderbutton a.sonraki{ margin-left: 570px;}
+

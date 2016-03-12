@@ -3,7 +3,9 @@
 	use MS\MSController;
 	class Main extends MSController{
 		function actionIndex(){
-			$this->view("Anasayfa",array("ad" => "abdurrahman"));
+			$this->controller("Header");
+			$this->controller("Section");
+			$this->controller("Footer");
 		}
 	}
 ?>

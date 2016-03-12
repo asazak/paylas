@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+#menu {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	list-style-type: none;
+	font-size: 13px;
+	height: 40px;
+	
+  }
+#menu li {
+	float: left;
+	margin: 0;
+	padding-left: 150px;			
+  }
+#menu li a {
+	text-decoration: none;
+	display: block;
+	padding: 0 20px;
+	line-height: 40px;
+	color: #FFF;
+  }
+#menu li a:hover, #menu li.active a {
+	background-color: #f5f5f5;
+	border-bottom: 2px solid #DDD;
+	color:#00bdf5;
+  }
+/* Black Menu */
+#menu.black {	
+	color:#FFF;
+	border-bottom: 2px solid #CCC;	
+	background: #e0e0e0;
+    }
+#menu.black a {color: #FFF;}
+#menu.black li a:hover, #menu.black li.active a {
+	color: # 00bdf5; 
+	background: #d8d8d8; 
+	border-bottom: 2px solid #444;}			

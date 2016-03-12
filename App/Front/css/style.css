@@ -1,0 +1,95 @@
+body{
+	background: #ccc;
+}
+.main{
+	width:800px;
+	float:none;
+	margin:0 auto;
+	background:#fff;
+	height:auto;
+}
+	header{
+		width:800px;
+		height:auto;
+		background:#fff;
+	}
+		header .logo{
+			width:100px;
+			height:80px;
+			padding:10px;
+			font-size:30px;
+			float:left;
+		}
+		header .headerGiris{
+			float:left;
+			width:200px;
+			height:auto;
+		}
+		header .headerGiris .tr{
+			width:200px;
+			height:25px;
+			margin:0;
+			padding:0;
+			float:left;
+		}
+			.td{
+				width:100px;
+				float:left;
+				height:25px;
+				display:block;
+			}
+				header .headerGiris .tr .td input[type="text"]{
+					width:98px;
+					height:23px;
+					border:1px solid;
+					margin:0;
+					padding:0;
+					display:block;
+					float:left;
+				}
+				header .headerGiris .tr .td input[type="password"]{
+					width:98px;
+					height:23px;
+					border:1px solid;
+					margin:0;
+					padding:0;
+					display:block;
+					float:left;
+				}
+		header .headerLinkler{
+			width:450px;
+			height:100px;
+		}
+			header .headerLinkler a{
+				display:block;
+				width:205px;
+				height:80px;
+				padding:10px;
+				text-align:center;
+				float:left;
+				font-size:30px;
+				color:#000;
+			}
+	section{
+		width:800px;
+		height:auto;
+		background:#fff;
+		margin-top:10px;
+	}
+		.kayit{
+			width:500px;
+			height:auto;
+		}
+		.hataMesaji{
+			width:400px;
+			height:auto;
+			color:#fff;
+		}
+			.hataMesaji li{
+				width:400px;
+				margin-top:2px;
+				background:red;
+			}
+			.hataMesaji2 li{
+				background:green;
+			}

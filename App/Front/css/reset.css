@@ -1,0 +1,25 @@
+/* Sıfırlamalar */
+	body,html{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+	}
+	p,h1,h2,h3,h4,h5,h6,ul,li,div,nav,img,textarea,header,footer,section,video,audio,canvas,textarea,menu,iframe{
+		display:block;
+		margin:0;
+		padding:0;
+		position:relative;
+		float:left;
+		border:0;
+		list-style-type:none;
+	}
+	a{
+		text-decoration:none;
+	}
+	:focus{
+		outline:0;
+	}
+	*::-moz-selection{
+		background:#74cff9;
+	}

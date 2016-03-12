@@ -1,0 +1,104 @@
+@charset "utf-8";
+html {font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;font-size: 12px;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,
+abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,
+strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,
+legend,table,caption,tbody,tfoot,thead,tr,th,td
+{margin:0;padding:0;border:0;outline:0;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+:focus{outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+a {color: #CCC;text-decoration: none;}
+a:hover {color:#333333;}
+/*RESET*/
+.clearboth {clear: both;}
+body {width: 100%;height: 100%;background: url(bg.png) repeat;}
+header {width: 980px;margin: 0 auto;}
+header .head_logo {width: 980px;height: 120px;}
+header .head_logo .logo {padding: 13px 0 12px 20px;width: 400px;float: left;}
+header .head_logo .head {width: 560px;height: 120px;float: left;}
+header .head_menu {
+	width: 980px;
+	display: block;
+	height: 41px;
+}
+header .head_menu .menu_ust ul li {line-height: 41px;height: 41px;font-size: 16px;font-weight: bolder;float :left;margin: 0 5px;}
+header .head_menu .menu_ust ul li a {color: #ffffff;text-shadow: 1px 1px 0px #650000;text-decoration: none;padding: 10px;dispaly: block;background: url(header_menu_bg.png);-webkit-border-top-left-radius: 4px;-webkit-border-top-right-radius: 4px;-moz-border-radius-topleft: 4px;-moz-border-radius-topright: 4px;border-top-left-radius: 4px;border-top-right-radius: 4px;}
+header .head_menu .menu_ust ul li a:hover {color: #650000;text-shadow: 1px 1px 0px #e66969;}
+header .head_menu .menu_bar {-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;width: 980px;display:block;line-height: 41px;height: 41px;background: url(header_bar_bg.png);}
+header .head_menu .menu_bar ul li {line-height: 41px;height: 41px;font-size: 20px;float :left;margin: 0 5px; margin-left: 150px;  padding-left: 10px; padding-right: 10px; text-align:center;}
+header .head_menu .menu_bar ul li a {color: #ffffff;text-shadow: 1px 1px 0px #650000;text-decoration: none;padding: 10px;dispaly: block;}
+header .head_menu .menu_bar ul li a:hover {color:#999999;text-shadow: 1px 1px 0px #e66969;}
+header .head_menu .menu_alt ul li {line-height: 33px;height: 33px;font-size: 16px;font-weight: bolder;float: right;margin: 0 5px;}
+header .head_menu .menu_alt ul li a {color: #ffffff;text-shadow: 1px 1px 0px #650000;text-decoration: none;padding: 6px 5px 5px 5px;dispaly: block;background: url(header_alt_menı_bg.png);-webkit-border-bottom-left-radius: 4px;-webkit-border-bottom-right-radius: 4px;-moz-border-radius-bottomleft: 4px;-moz-border-radius-bottomright: 4px;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;}
+header .head_menu .menu_alt ul li a:hover {color: #650000;text-shadow: 1px 1px 0px #e66969;}
+.container {width: 980px;min-height: 350px;padding: 10px 0 0 0;margin: 0 auto;}
+.solsutun {width: 200px;float: left;}
+.solsutun .blok {background: #e0e0e0;border: 1px solid #fff;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;padding: 1px;margin: 0 0 10px 0;-moz-box-shadow: 0 0 3px #888;-webkit-box-shadow: 0 0 3px #888;box-shadow: 0 0 3px #888;}
+.solsutun .blok h2 {padding: 8px;background: url(menu_baslik.png) repeat-x;border-bottom: 1px solid #83100f;font-size: 18px;color: #ffffff;text-shadow: 1px 1px 0px #650000;-webkit-border-top-left-radius: 4px;-webkit-border-top-right-radius: 4px;-moz-border-radius-topleft: 4px;-moz-border-radius-topright: 4px;border-top-left-radius: 4px;border-top-right-radius: 4px;}
+.solsutun .blok ul {background: #e0e0e0 url(menu_bg.png) top left repeat-x;border-top: 1px solid #e0e0e0}
+.solsutun .blok ul.menublok li {width: 100%;margin: 0 0 2px;}
+.solsutun .blok ul.menublok li a {display: block;color: #4a4a4a;text-shadow: 1px 1px 0px #f5f5f5;text-decoration: none;font-weight: bolder;padding: 7px 0 7px 13px;background: url(menu_ikon.png) no-repeat;background-position: 3px 10px;}
+.solsutun .blok ul.menublok li a:hover {color: #fff;text-shadow: none;background: #333 url(menu_ikon_hover.png) no-repeat;background-position: 3px 10px;}
+.solsutun .blok ul.tabloblok li {width: 100%;margin: 0 0 2px;}
+.solsutun .blok ul.tabloblok li span {display: block;padding: 7px 0;float: left;}
+.solsutun .blok ul.tabloblok li span.baslik {width: 60%;}
+.solsutun .blok ul.tabloblok li span.seperator {width: 5%;}
+.solsutun .blok ul.tabloblok li span.icerik {width: 35%;text-align: center;}
+.sagsutun {width: 770px;float :right;}
+.sagsutun .icerik_logo {background: #ddd;padding: 10px;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+.sagsutun .yonetim_ana_menu {padding: 10px 10px 10px 17px;}
+.sagsutun .yonetim_ana_menu ul {}
+.sagsutun .yonetim_ana_menu ul li {float: left;width:110px;margin :0 15px 5px 0;text-align: center;}
+.sagsutun .yonetim_ana_menu ul li.marginrightnone {margin: 0 0 5px 0;}
+.sagsutun .yonetim_ana_menu ul li a span {padding: 4px;display: block;}
+.sagsutun .yonetim_ana_menu ul li a {display: block;text-decoration: none;font-size: 14px;color: #4f4f4f;font-weight: bolder;}
+.sagsutun .yonetim_ana_menu ul li a:hover {color: #FFF;background: #636363;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+
+footer {width: 980px;margin: 0 auto;color: #fff;background: url(footer_bg.png) repeat-x;heigght: 41px;line-height:41px;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+footer .bilgi {float: right;padding: 0 20px 0 0; font-size:20px;}
+footer .extra {float: left;padding: 0 0 0 20px;}
+.sagic
+{
+	width: 150px;
+	height: 120px;
+	text-align:center;
+	padding: 40px 0px 40px 0px;
+	background-color: #0FF;
+}
+.sagicbas
+{
+	margin-top: -190px;
+	margin-left:160px;
+	float: left;
+	width: 470px;
+	font-size:24px;
+	padding-left: 80px;
+	background-color:#666;
+}
+.sagicac
+{
+	margin-top: -150px;
+	margin-left: 160px;
+	width: 420px;
+	padding: 10px 20px 10px 20px;
+	background-color:#333;
+	
+}
+.rezerve
+{
+	float:right;
+	width: 120px;
+	text-align: center;
+	padding: 10px 20px 10px 20px;
+	background-color:#066;
+}
+.rezerve a
+{
+	font-size: 21px;
+	color: #FFF;
+}

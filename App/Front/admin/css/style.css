@@ -1,0 +1,12 @@
+* {margin: 0; padding: 0; text-decoration: none; list-style: none;}
+body {background: url("img/bg.png"); border-top: 3px solid #e8e8e8; font: 14px arial;}
+:focus {outline: none;}
+#giris_form {width: 300px; margin: auto; margin-top: 130px; box-shadow: 2px 2px 0 #eee;background: #fcfcfc; border: 1px solid #ddd; border-radius: 3px;}
+#giris_form div.giris_form {padding: 15px 15px; overflow: auto;}
+#giris_form span.giris_form_blok {display: block;}
+#giris_form span.giris_form_blok input {font: 15px helvetica; color: #aaa; width: 250px; float: left; background: #fff; border: 1px solid #e4e4e4; padding: 9px;}
+#giris_form span.giris_form_blok input.pass {letter-spacing: 1px;}
+#giris_form span.giris_form_blok input:focus {color: #555;}
+#giris_form span.giris_form_blok input.giris {background: #6191f2; display: block; margin: auto; color: #fff; border: 1px solid #6191f2; width: 270px; font: 15px helvetica;}
+#giris_form span.giris_form_blok input.giris:hover {background: #6d9efe; box-shadow: none; text-shadow: 1px 0 #567cca;}
+#giris_form span.giris_form_blok input.giris:active {background: #6d9efe;}
